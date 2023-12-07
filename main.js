@@ -1,9 +1,9 @@
-function showPage(sectionId) {
+function showPage(section) {
   document.querySelectorAll('section').forEach(section => {
     section.style.display = 'none';
   });
 
-  const selectedSection = document.querySelector(`#${sectionId}`);
+  const selectedSection = document.querySelector(`#${section}`);
   
   if (selectedSection) {
     selectedSection.style.display = 'block';
