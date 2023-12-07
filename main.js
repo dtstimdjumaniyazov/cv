@@ -11,6 +11,9 @@ function showPage(section) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  //default shown 'contact'
+  showPage('contact');
+  
   document.querySelectorAll('button').forEach(button => {
     button.onclick = function() {
       showPage(this.dataset.page);
