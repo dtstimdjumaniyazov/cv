@@ -16,10 +16,10 @@
     <p>Junior Web Developer</p>
   </header>
 
-  <button onclick="toggleSection('contact')">Contacts</button>
-  <button onclick="toggleSection('education')">Education</button>
-  <button onclick="toggleSection('experience')">Professional Experience</button>
-  <button onclick="toggleSection('skills')">Additional Skills</button>
+  <button data-page="contact">Contacts</button>
+  <button data-page="education">Education</button>
+  <button data-page="experience">Professional Experience</button>
+  <button data-page="skills">Additional Skills</button>
 
   <section id="contact">
     <h2>Contact Information</h2>
@@ -33,7 +33,7 @@
     </div>
   </section>
 
-  <section id="education" class="hidden">
+  <section id="education">
     <h2>Education</h2>
     <p>Russian Government University of oil and gas named by I.M. Gubkin, branch in Tashkent <a href=".\files\diploma.jpg" target="_blank">(diploma)</a></p>
     <p class="date">September 2, 2010 - June 27, 2015</p>
@@ -70,7 +70,7 @@
     <p class="date">December 19, 2023 - till present days</p>
   </section>
 
-  <section id="experience" class="hidden">
+  <section id="experience">
     <h2>Professional Experience</h2>
     <h3>"Head of well design division" at Eriell Group</h3>
     <p class="date">October 3, 2022 - till present days</p>
@@ -144,7 +144,7 @@
     <p></p>
   </section>
 
-  <section id="skills" class="hidden">
+  <section id="skills">
     <h2>Additional Skills</h2>
     <div class="table-container">
       <div class="table-wrapper">

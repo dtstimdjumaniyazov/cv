@@ -19,6 +19,7 @@ section {
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
 }
 
 h1 {
@@ -47,10 +48,6 @@ li {
 .contact-info {
   display: flex;
   justify-content: space-between;
-}
-
-.hidden {
-  display: none;
 }
 
 .date {
